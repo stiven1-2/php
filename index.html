@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="scrip."></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+<script>
+    function mialerta() {
+        alert("Por favor, registrese");
+    }
+</script>
+
+<body>
+    <style>
+        #menu {
+            background-color: #000;
+        }
+        
+        #menu ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #menu ul li {
+            display: inline-block;
+        }
+        
+        #menu ul li a {
+            color: white;
+            display: block;
+            padding: 20px 20px;
+            text-decoration: none;
+        }
+        
+        #menu ul li a:hover {
+            background-color: #144a91;
+        }
+    </style>
+    </head>
+
+    <body>
+        <div id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Acerca</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li class="item-r"><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        <main>
+            <section id="banner">
+                <img src="img/_wbs7CuBanner-pago-de-servicio.jpg" alt="">
+                <div class="contener-2">
+                    <h1>Paga tus servicios</h1>
+                    <p>¿Que servicios deseas pagar?</p>
+                </div>
+            </section>
+        </main>
+        <section class="cuerpo">
+            <h1 class="titulo">
+                Bienvenido a A.M.S/Aplicación movil de servicios
+            </h1>
+            <article class="caja">
+                <div class="subtitulo">
+                    <img src="img/surgas.jpg" width="349px" alt="" class="efecto">
+                    <h3 class="servicios">
+                        Servicio 1
+                    </h3>
+                </div>
+                <div class="contenido">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt earum recusandae, quis rem ipsam facilis sed. Corporis debitis pariatur porro molestias odit sit assumenda? Impedit facere sapiente commodi rerum molestiae?</p>
+                    <input type="submit" class="boton" value="Pagar">
+                </div>
+            </article>
+            <article class="caja">
+                <div class="subtitulo">
+                    <img src="img/images.jfif" width="349px" alt="" class="efecto">
+                    <h3 class="servicios">
+                        Servicio 2
+                    </h3>
+                </div>
+                <div class="contenido">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt earum recusandae, quis rem ipsam facilis sed. Corporis debitis pariatur porro molestias odit sit assumenda? Impedit facere sapiente commodi rerum molestiae?</p>
+                    <input type="submit" class="boton" value="Pagar">
+                </div>
+            </article>
+            <article class="caja">
+                <div class="subtitulo">
+                    <img src="img/descarga (1).png" width="349px" alt="" class="efecto">
+                    <h3 class="servicios">
+                        Servicio 3
+                    </h3>
+                </div>
+                <div class="contenido">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt earum recusandae, quis rem ipsam facilis sed. Corporis debitis pariatur porro molestias odit sit assumenda? Impedit facere sapiente commodi rerum molestiae?</p>
+                    <input type="submit" class="boton" value="Pagar">
+
+                </div>
+            </article>
+            <article class="caja">
+                <div class="subtitulo">
+                    <img src="img/VoIP.jpg" width="349px" alt="" class="efecto">
+                    <h3 class="servicios">
+                        Servicio 4
+                    </h3>
+                </div>
+                <div class="contenido">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt earum recusandae, quis rem ipsam facilis sed. Corporis debitis pariatur porro molestias odit sit assumenda? Impedit facere sapiente commodi rerum molestiae?</p>
+                    <input type="submit" class="boton" value="Pagar">
+                </div>
+            </article>
+        </section>
+        </div>
+
+        <div class="content">
+
+            <h1 class="logo">Formulario <span>1</span></h1>
+
+            <div class="contact-wrapper animated bounceInUp">
+                <div class="contact-form">
+                    <h3>Formulario</h3>
+                    <form action="">
+                        <p>
+                            <label>Nombres</label>
+                            <input type="text" name="nombres">
+                        </p>
+                        <p>
+                            <label>Apellidos</label>
+                            <input type="text" name="apellidos">
+                        </p>
+                        <p>
+                            <label>Teléfono</label>
+                            <input type="tel" name="telefono">
+                        </p>
+                        <p>
+                            <label>Gmail</label>
+                            <input type="text" name="gmail">
+                        </p>
+                        <p class="block">
+                            <label>Descripción</label>
+                            <textarea name="submit" rows="3"></textarea>
+                        </p>
+
+                        <label>Seleccione un Servicio</label>
+                        <select class="controls" name="Servicios">
+                    <option value="servicios de energia">Energia</option>
+                    <option value="servicios de gas"> Gas</option>
+                    <option value="servicios de agua"> Agua</option>
+                    <option value="servicios de telefono">Teléfono</option>
+                
+                    </select><br>
+                        <p class="block">
+                            <button>
+                          <input type="button" onclick="mialerta();" value="Enviar">  
+                        </button>
+                        </p>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h4>Información</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Calle</li>
+                        <li><i class="fas fa-phone"></i> (111) 111 111 111</li>
+                        <li><i class="fas fa-envelope-open-text"></i> Descripción</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident ipsam necessitatibus repellendus?</p>
+                    <p>Formulario 1</p>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
